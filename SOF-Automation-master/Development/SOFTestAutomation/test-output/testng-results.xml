@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="113451" started-at="2020-09-19T12:35:21Z" finished-at="2020-09-19T12:37:15Z">
+    <groups>
+    </groups>
+    <test name="MainTest" duration-ms="113451" started-at="2020-09-19T12:35:21Z" finished-at="2020-09-19T12:37:15Z">
+      <class name="fawry.sofAutomation.testsActions.lookupDefinitions.ManageAccountTypeProfileTest">
+        <test-method status="PASS" signature="deleteOldFiles()[pri:0, instance:fawry.sofAutomation.testsActions.lookupDefinitions.ManageAccountTypeProfileTest@3c153a1]" name="deleteOldFiles" is-config="true" duration-ms="621" started-at="2020-09-19T12:35:19Z" finished-at="2020-09-19T12:35:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteOldFiles -->
+        <test-method status="PASS" signature="setExtent()[pri:0, instance:fawry.sofAutomation.testsActions.lookupDefinitions.ManageAccountTypeProfileTest@3c153a1]" name="setExtent" is-config="true" duration-ms="1518" started-at="2020-09-19T12:35:20Z" finished-at="2020-09-19T12:35:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setExtent -->
+        <test-method status="PASS" signature="loadConfiguration(java.lang.String, java.lang.String)[pri:0, instance:fawry.sofAutomation.testsActions.lookupDefinitions.ManageAccountTypeProfileTest@3c153a1]" name="loadConfiguration" is-config="true" duration-ms="66679" started-at="2020-09-19T12:35:21Z" finished-at="2020-09-19T12:36:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://10.96.0.221:1727/POSAdminTool/AdminTool/Login.faces]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[CH]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadConfiguration -->
+        <test-method status="PASS" signature="login()[pri:0, instance:fawry.sofAutomation.testsActions.lookupDefinitions.ManageAccountTypeProfileTest@3c153a1]" name="login" is-config="true" duration-ms="19945" started-at="2020-09-19T12:36:28Z" finished-at="2020-09-19T12:36:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="ManageAccountTypeProfileDetails(fawry.sofAutomation.pojos.lookupDefinitions.ManageAccountTypeProfilePojo)[pri:1, instance:fawry.sofAutomation.testsActions.lookupDefinitions.ManageAccountTypeProfileTest@3c153a1]" name="ManageAccountTypeProfileDetails" duration-ms="5398" started-at="2020-09-19T12:37:05Z" description="Validate manage Account Type Profile Functionality" data-provider="manageAccountTypeProfileDataProvider" finished-at="2020-09-19T12:37:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[fawry.sofAutomation.pojos.lookupDefinitions.ManageAccountTypeProfilePojo@4cbf4f53]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ManageAccountTypeProfileDetails -->
+        <test-method status="PASS" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:fawry.sofAutomation.testsActions.lookupDefinitions.ManageAccountTypeProfileTest@3c153a1]" name="screenshotOnFailure" is-config="true" duration-ms="155" started-at="2020-09-19T12:37:11Z" finished-at="2020-09-19T12:37:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ManageAccountTypeProfileDetails status=SUCCESS method=ManageAccountTypeProfileTest.ManageAccountTypeProfileDetails(fawry.sofAutomation.pojos.lookupDefinitions.ManageAccountTypeProfilePojo)[pri:1, instance:fawry.sofAutomation.testsActions.lookupDefinitions.ManageAccountTypeProfileTest@3c153a1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotOnFailure -->
+        <test-method status="PASS" signature="ManageAccountTypeProfileDetails(fawry.sofAutomation.pojos.lookupDefinitions.ManageAccountTypeProfilePojo)[pri:1, instance:fawry.sofAutomation.testsActions.lookupDefinitions.ManageAccountTypeProfileTest@3c153a1]" name="ManageAccountTypeProfileDetails" duration-ms="1346" started-at="2020-09-19T12:37:11Z" description="Validate manage Account Type Profile Functionality" data-provider="manageAccountTypeProfileDataProvider" finished-at="2020-09-19T12:37:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[fawry.sofAutomation.pojos.lookupDefinitions.ManageAccountTypeProfilePojo@4893b344]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ManageAccountTypeProfileDetails -->
+        <test-method status="PASS" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:fawry.sofAutomation.testsActions.lookupDefinitions.ManageAccountTypeProfileTest@3c153a1]" name="screenshotOnFailure" is-config="true" duration-ms="1" started-at="2020-09-19T12:37:13Z" finished-at="2020-09-19T12:37:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ManageAccountTypeProfileDetails status=SUCCESS method=ManageAccountTypeProfileTest.ManageAccountTypeProfileDetails(fawry.sofAutomation.pojos.lookupDefinitions.ManageAccountTypeProfilePojo)[pri:1, instance:fawry.sofAutomation.testsActions.lookupDefinitions.ManageAccountTypeProfileTest@3c153a1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotOnFailure -->
+        <test-method status="PASS" signature="closeDriver()[pri:0, instance:fawry.sofAutomation.testsActions.lookupDefinitions.ManageAccountTypeProfileTest@3c153a1]" name="closeDriver" is-config="true" duration-ms="1764" started-at="2020-09-19T12:37:13Z" finished-at="2020-09-19T12:37:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:fawry.sofAutomation.testsActions.lookupDefinitions.ManageAccountTypeProfileTest@3c153a1]" name="endTest" is-config="true" duration-ms="1224" started-at="2020-09-19T12:37:15Z" finished-at="2020-09-19T12:37:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- fawry.sofAutomation.testsActions.lookupDefinitions.ManageAccountTypeProfileTest -->
+    </test> <!-- MainTest -->
+  </suite> <!-- Suite -->
+</testng-results>

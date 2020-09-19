@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="5" name="Failed suite [Suite]">
+  <test thread-count="5" verbose="5" name="MainTest(failed)">
+    <parameter name="testDataType" value="Excel"/>
+    <parameter name="url" value="http://10.96.0.221:1727/POSAdminTool/AdminTool/Login.faces"/>
+    <parameter name="browserType" value="CH"/>
+    <classes>
+      <class name="fawry.sofAutomation.testsActions.lookupDefinitions.ManageAccountTypeProfileTest">
+        <methods>
+          <include name="closeDriver"/>
+          <include name="loadConfiguration"/>
+          <include name="ManageAccountTypeProfileDetails"/>
+          <include name="deleteOldFiles"/>
+          <include name="screenshotOnFailure"/>
+          <include name="setExtent"/>
+          <include name="endTest"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- fawry.sofAutomation.testsActions.lookupDefinitions.ManageAccountTypeProfileTest -->
+    </classes>
+  </test> <!-- MainTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->
